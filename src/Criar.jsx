@@ -17,6 +17,8 @@ const Criar = () => {
       texto: texto
     })
       .then(response => setSuccess(response.data.info))
+
+      navigate("/")
   }
   return (
     <>
